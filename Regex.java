@@ -4,7 +4,7 @@ class UserMaincode
 {
 	public static boolean check(String s)
 	{
-		String a="^[A-Z]{3}-\\d{6}$";
+		String a="^[CPT]{3}-\\d{6}$";
 		return s.matches(a);
 	}
 }
